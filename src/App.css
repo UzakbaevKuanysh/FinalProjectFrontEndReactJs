@@ -1,0 +1,331 @@
+nav{
+  background-color:rgb(38, 38, 247);
+  box-shadow: 2px 20px 20px rgb(179, 162, 162);
+  padding:5px 10px;
+  
+}
+.main1{
+  display:flex;
+  list-style-type: none;
+  margin-left:50px;
+  margin-top:0px;
+  color:yellow;
+  font-style: cursive;
+  font-size: 30px;
+}
+.main1 li{
+  padding:5px 10px;
+}
+.homelink:hover{
+  background-color:yellow;
+}
+.friendslink{
+  margin-left:30px;
+
+}
+.friendslink:hover{
+  background-color:yellow;
+}
+.profilelink{
+  color:white;
+  margin-left:30px;
+
+}
+.profilelink:hover{
+  background-color:yellow;
+}
+.login-link{
+  position:absolute;
+  right:50px;
+}
+.login-link:hover{
+  background-color:yellow;
+}
+
+#profile{
+  margin-top:0px;
+  text-align: center;
+  color:rgb(10, 9, 9);
+}
+.profilepage{
+  color:rgb(10, 7, 7);
+  margin:auto;
+  margin-top:0px;
+  width:400px;
+  border:12px solid rgb(122, 238, 13);
+  text-align:center;
+  font-size: 30px;
+}
+.image{
+  margin-top:20px;
+}
+
+.homepage{
+  text-align:center;
+  font-size:30px;
+  color:rgb(16, 224, 51)
+}
+#friends{
+  text-align: center;
+}
+.friendspage{
+  border:20px solid yellowgreen;
+  margin:auto;
+  width:300px;
+  font-size:30px;
+  color:black;
+}
+
+.friendsbio{
+  position:absolute;
+  border:2px solid yellow;
+  right:40px;
+  top:150px;
+}
+#login{
+  text-align: center;
+  font-family: cursive;
+}
+
+.loginpage{
+  margin:auto;
+  width:500px;
+  height:450px;
+  
+  border:2px solid darkcyan;
+  background: darkgray;
+  font-size:20px;
+  background-color: rgb(78, 214, 255);
+  box-shadow: 10px 10px grey;
+  border-radius: 50px 20px;
+
+}
+.loginbox{
+  display:block;
+  margin:auto;
+  margin-top:20px;
+  height:100px;
+  width:250px;
+  border-radius: 20px 20px;
+  text-align: center;
+  font-family: cursive;
+}
+.passwordbox{
+  display:block;
+  margin:auto;
+  height:100px;
+  width:250px;
+  border-radius: 10px 20px;
+  text-align: center;
+  font-family: cursive;
+
+}
+.Pablo{
+  color:rgb(2, 2, 2);
+  font-family: cursive;
+  text-align: center;
+}
+.qwerty{
+  
+  color:rgb(0, 0, 0);
+  font-family: cursive;
+  text-align: center
+}
+
+.btn-login{
+  display: block;
+  margin:auto;
+  margin-top:10px;
+  width:100px;
+  box-shadow: 10px 10px 10px rgb(122, 103, 103);
+  height:50px;
+  background-color:lightseagreen;
+  border-radius: 20px 20px;
+  text-align: center;
+  font-family: cursive;
+  cursor: pointer;
+}
+.btn-login:hover{
+  background-color:orange;
+}
+
+#invalid{
+  text-align: center;
+  color:red;
+}
+
+.loginphoto{
+  background-color: tomato;
+}
+
+
+
+.profilephoto{
+  background-color:rgb(244, 244, 245);
+}
+
+
+.mayoclinic{
+  float:left;
+  border:0px solid white;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+p{
+  font-size:30px;
+}
+
+.timer{
+  font-size:100px;
+
+}
+
+.doctors {
+  display:flex;
+  list-style-type: none;
+  font-size:25px;
+  padding-left:100px;
+
+
+}
+.doctors li{
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.list{
+  border:1px solid rgb(247, 241, 241);
+  margin-left:100px;
+  width:400px;
+  height:500px;
+  text-align: center;
+  font-family: cursive ;
+  background-color: rgb(78, 214, 255);
+  box-shadow: 10px 10px grey;
+  border-radius: 50px 20px;
+}
+.about{
+  background: rgb(255, 141, 65);
+  box-shadow: 10px 10px grey;
+  border-radius: 50px 20px;
+}
+
+h4{
+  text-align: center;
+  font-family:cursive;
+  font-size: 30px;
+  
+}
+
+.medic{
+  box-sizing: border-box;
+  margin-left:100px;
+  width:300px;
+
+}
+
+.btn-rec{
+  background-color:rgb(126, 191, 255);
+  width:150px;
+  height:70px;
+  font-size:20px;
+  margin-left:650px;
+  box-shadow: rgb(126, 191, 255);
+  cursor: pointer;
+  box-shadow: 10px 10px grey;
+  border-radius: 50px 20px;
+
+}
+.btn-rec:hover{
+  background-color:rgb(168, 240, 100);
+  
+}
+.recom{
+  background-color:rgb(138, 212, 255); 
+  box-shadow: 10px 10px grey;
+  border-radius: 50px 20px;
+}
+.wrapper{
+  display:flex;
+  margin-left:200px;
+}
+#titlerec{
+  text-align: center;
+  font-family: cursive;
+  color:rgb(197, 63, 63)
+}
+.rec{
+  background-color:rgb(255, 167, 167);
+  box-sizing: border-box;
+  font-family: cursive;
+  height:500px;
+  width:400px;
+  font-size:25px;
+  margin-left:200px;
+  box-shadow: 10px 10px grey;
+  border-radius: 50px 20px;
+
+}
+
+.rec li{
+  padding-top:20px;
+  padding-bottom: 10px;
+
+}
+
+.contact{
+  position:absolute;
+  right:20px;
+}
+
+#ask{
+  border:1px solid grey;
+  text-align: center;
+  box-shadow: 10px 10px grey;
+  border-radius: 50px 20px;
+  font-family: cursive;
+  font-size:20px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  background-color: rgb(145, 115, 255);
+
+}
+.buttons{
+  background-color: lawngreen;
+  box-shadow: 10px 10px grey;
+  border-radius: 50px 20px;
+}
+.btn-help{
+  border:1px solid grey;
+  background-color: rgb(138, 212, 255);
+  font-size:20px;
+  width:200px;
+  height:300px;
+  margin-left:100px;
+  cursor: help;
+  box-shadow: 10px 10px grey;
+  border-radius: 50px 20px;
+  font-family: cursive;
+}
+.btn-help:hover{
+  background-color: rgb(247, 241, 241);
+}
+
+
+
+.aboutuslink:hover{
+  background-color: yellow;
+}
+.recommendationlink:hover{
+  background-color: yellow;
+}
+
+.alert{
+  text-align: center;
+  font-family:fantasy;
+  color:red;
+  
+}
